@@ -12,10 +12,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils.database import is_music_playing, music_off
-from YukkiMusic.utils.decorators import AdminRightsCheck
+from DzL import app
+from DzL.core.call import Dz
+from DzL.utils.database import is_music_playing, music_off
+from DzL.utils.decorators import AdminRightsCheck
 
 # Commands
 PAUSE_COMMAND = get_command("PAUSE_COMMAND")
@@ -34,6 +34,6 @@ async def pause_admin(cli, message: Message, _, chat_id):
     if not await is_music_playing(chat_id):
         return await message.reply_text(_["admin_1"])
     await music_off(chat_id)
-    await Yukki.pause_stream(chat_id)
+    await Dz.pause_stream(chat_id)
     await message.reply_text(
         _["admin_2"])
