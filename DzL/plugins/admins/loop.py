@@ -12,10 +12,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.utils.database.memorydatabase import (get_loop,
+from DzL import app
+from DzL.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
-from YukkiMusic.utils.decorators import AdminRightsCheck
+from DzL.utils.decorators import AdminRightsCheck
 
 # Commands
 LOOP_COMMAND = get_command("LOOP_COMMAND")
