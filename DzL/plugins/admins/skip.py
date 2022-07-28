@@ -13,15 +13,15 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import YouTube, app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import get_loop
-from YukkiMusic.utils.decorators import AdminRightsCheck
-from YukkiMusic.utils.inline.play import (stream_markup,
+from DzL import YouTube, app
+from DzL.core.call import Dz
+from DzL.misc import db
+from DzL.utils.database import get_loop
+from DzL.utils.decorators import AdminRightsCheck
+from DzL.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from YukkiMusic.utils.stream.autoclear import auto_clean
-from YukkiMusic.utils.thumbnails import gen_thumb
+from DzL.utils.stream.autoclear import auto_clean
+from DzL.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
@@ -67,7 +67,7 @@ async def skip(cli, message: Message, _, chat_id):
                                     await message.reply_text(
                                         _["admin_10"]
                                         )
-                                    await Yukki.stop_stream(chat_id)
+                                    await Dz.stop_stream(chat_id)
                                 except:
                                     return
                                 break
@@ -93,14 +93,14 @@ async def skip(cli, message: Message, _, chat_id):
                 await message.reply_text(
                     _["admin_10"])
                 try:
-                    return await Yukki.stop_stream(chat_id)
+                    return await Dz.stop_stream(chat_id)
                 except:
                     return
         except:
             try:
                 await message.reply_text(
                     _["admin_10"])
-                return await Yukki.stop_stream(chat_id)
+                return await Dz.stop_stream(chat_id)
             except:
                 return
     queued = check[0]["file"]
@@ -116,7 +116,7 @@ async def skip(cli, message: Message, _, chat_id):
                 _["admin_11"].format(title)
             )
         try:
-            await Yukki.skip_stream(chat_id, link, video=status)
+            await Dz.skip_stream(chat_id, link, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
@@ -143,7 +143,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             return await mystic.edit_text(_["call_9"])
         try:
-            await Yukki.skip_stream(chat_id, file_path, video=status)
+            await Dz.skip_stream(chat_id, file_path, video=status)
         except Exception:
             return await mystic.edit_text(_["call_9"])
         button = stream_markup(_, videoid, chat_id)
@@ -159,7 +159,7 @@ async def skip(cli, message: Message, _, chat_id):
         await mystic.delete()
     elif "index_" in queued:
         try:
-            await Yukki.skip_stream(chat_id, videoid, video=status)
+            await Dz.skip_stream(chat_id, videoid, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
@@ -170,7 +170,7 @@ async def skip(cli, message: Message, _, chat_id):
         )
     else:
         try:
-            await Yukki.skip_stream(chat_id, queued, video=status)
+            await Dz.skip_stream(chat_id, queued, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         if videoid == "telegram":
