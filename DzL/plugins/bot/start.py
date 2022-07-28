@@ -18,18 +18,18 @@ import config
 from config import BANNED_USERS
 from config.config import OWNER_ID
 from strings import get_command, get_string
-from YukkiMusic import Telegram, YouTube, app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.plugins.play.playlist import del_plist_msg
-from YukkiMusic.plugins.sudo.sudoers import sudoers_list
-from YukkiMusic.utils.database import (add_served_chat,
+from DzL import Telegram, YouTube, app
+from DzL.misc import SUDOERS
+from DzL.plugins.play.playlist import del_plist_msg
+from DzL.plugins.sudo.sudoers import sudoers_list
+from DzL.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from YukkiMusic.utils.decorators.language import LanguageStart
-from YukkiMusic.utils.inline import (help_pannel, private_panel,
+from DzL.utils.decorators.language import LanguageStart
+from DzL.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()
