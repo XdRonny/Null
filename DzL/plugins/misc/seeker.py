@@ -9,8 +9,8 @@
 
 import asyncio
 
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import (get_active_chats,
+from DzL.misc import db
+from DzL.utils.database import (get_active_chats,
                                        is_music_playing)
 
 
