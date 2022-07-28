@@ -12,10 +12,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, MONGO_DB_URI, OWNER_ID
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import add_sudo, remove_sudo
-from YukkiMusic.utils.decorators.language import language
+from DzL import app
+from DzL.misc import SUDOERS
+from DzL.utils.database import add_sudo, remove_sudo
+from DzL.utils.decorators.language import language
 
 # Command
 ADDSUDO_COMMAND = get_command("ADDSUDO_COMMAND")
@@ -30,7 +30,7 @@ SUDOUSERS_COMMAND = get_command("SUDOUSERS_COMMAND")
 async def useradd(client, message: Message, _):
     if MONGO_DB_URI is None:
         return await message.reply_text(
-            "**Due to bot's privacy issues, You can't manage sudo users when you're using Yukki's Database.\n\n Please fill your MONGO_DB_URI in your vars to use this feature**"
+            "**Due to bot's privacy issues, You can't manage sudo users when you're using Dz Database.\n\n Please fill your MONGO_DB_URI in your vars to use this feature**"
         )
     if not message.reply_to_message:
         if len(message.command) != 2:
