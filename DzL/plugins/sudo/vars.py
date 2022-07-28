@@ -13,10 +13,10 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database.memorydatabase import get_video_limit
-from YukkiMusic.utils.formatters import convert_bytes
+from DzL import app
+from DzL.misc import SUDOERS
+from DzL.utils.database.memorydatabase import get_video_limit
+from DzL.utils.formatters import convert_bytes
 
 VARS_COMMAND = get_command("VARS_COMMAND")
 
