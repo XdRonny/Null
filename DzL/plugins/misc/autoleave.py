@@ -11,9 +11,9 @@ import asyncio
 from datetime import datetime
 import config
 from strings import get_string
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki, autoend
-from YukkiMusic.utils.database import (get_client, get_lang, is_active_chat,
+from DzL import app
+from DzL.core.call import Dz, autoend
+from DzL.utils.database import (get_client, get_lang, is_active_chat,
                                        is_autoend)
 
 
@@ -22,7 +22,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from YukkiMusic.core.userbot import assistants
+            from DzL.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -69,7 +69,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Yukki.stop_stream(chat_id)
+                    await Dz.stop_stream(chat_id)
                 except:
                     continue
                 try:
