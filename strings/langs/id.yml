@@ -55,7 +55,7 @@ admin_16 : "Gagal melompat ke trek tertentu.\n\nPeriksa antrean kiri dengan /que
 admin_17 : "{0}.. Harap tunggu"
 admin_18 : "Daftar Admin Tidak Ditemukan\n\nSilakan muat ulang daftar admin dengan /admincache atau /reload"
 admin_19 : "Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan ini.\nJika Anda sudah menjadi admin, muat ulang cache admin dengan /admincache "
-admin_20 : "» Bot di muat ulang\n• Daftar admin di perbarui."
+admin_20 : "• **Bot di muat ulang.**\n» __Daftar admin di perbarui.__"
 admin_21 : "Tidak ada di dalam antrian untuk diacak"
 admin_22 : "Gagal mengacak.\n\nPeriksa antrian : /queue"
 admin_23 : "**Antrian Diacak oleh {0}**\n\nPeriksa antrean yang diacak : /queue"
