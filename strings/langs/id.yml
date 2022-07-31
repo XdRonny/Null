@@ -453,7 +453,7 @@ gban_10 : "No Gbanned Users Found."
 gban_11 : "Please wait a while.. Fetching Gbanned users list"
 
 #Suggestions
-sug_0 : "❓**Tau ga?**\n\n✅ "
+sug_0 : "• **Tau ga?**\n\n» "
 sug_1 : "Kamu bisa mengganti **mode pencarian**, yaitu Mode Langsung atau Mode Inline.\n\nUbah mode melalui /playmode"
 sug_2 : "kamu bisa mengganti **jenis pemutaran**, Untuk Semua Orang atau Hanya Admin.\n\nUbah mode melalui /playmode"
 sug_3 : "Kamu juga juga bisa memutar musik di **channels**.\n\nSetel channel_id melalui /channelplay dan putar melalui /cplay"
