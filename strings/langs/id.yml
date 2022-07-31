@@ -230,7 +230,7 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Mohon 
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Trek Antrian:</u>**  [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "**Ditambahkan ke Antrian** #{0}\n\n**Judul:** {1}\n**Durasi:** {2}\n**Diminta oleh:** {3}\n\n• **Untuk melihat antrian, klik** » `/player`"
+queue_4 : "**Ditambahkan ke Antrian** #{0}\n**Judul:** {1}\n**Durasi:** {2}\n**Diminta oleh:** {3}\n\n• **Untuk melihat antrian, klik** » `/player`"
 queue_5 : "Hanya satu trek di dalam antrian, Silakan tambahkan lagi ke daftar antrian"
 
 # All Streaming Lines
