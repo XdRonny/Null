@@ -71,19 +71,22 @@ async def gen_thumb(videoid):
         y2 = Ycenter + 170
         logo = changeImageSize(1270, 710, youtube)
         logo.thumbnail((950, 550), Image.ANTIALIAS)
-        background.paste(logo, (170, 15))
+        background.paste(logo, (170, 20))
         draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("assets/font2.ttf", 40)
         font2 = ImageFont.truetype("assets/font2.ttf", 70)
         arial = ImageFont.truetype("assets/font2.ttf", 30)
-        name_font = ImageFont.truetype("assets/font.ttf", 30)
+        name_font = ImageFont.truetype("assets/font.ttf", 35)
         para = textwrap.wrap(title, width=32)
         j = 0
+        draw.text(
+            (280, 558), f"Now Playing", fill="aqua", font=name_font
+        )
         for line in para:
             if j == 1:
                 j += 1
                 draw.text(
-                    (290, 600),
+                    (280, 650),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
@@ -93,20 +96,13 @@ async def gen_thumb(videoid):
             if j == 0:
                 j += 1
                 draw.text(
-                    (290, 550),
+                    (280, 600),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
                 )
-
-        draw.text(
-            (290, 650),
-            f"Duration : {duration[:23]}",
-            (255, 255, 255),
-            font=arial,
-        )
         try:
             os.remove(f"cache/thumb{videoid}.png")
         except:
