@@ -234,7 +234,7 @@ queue_4 : "**Added Queue At** #{0}\n\n**Title:** {1}\n**Duration:** {2}\n**Reque
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "**Status:** `Playing`\n**Get Info:** [Here]({1})\n**Request By:** {0}"
+stream_1 : "**Status:** `Playing`\n**Duration:** {1}\n**Request By:** {0}\n**Get Info:** [Here]({2})"
 stream_2 : "**Streaming via URL**\n**Request By:** {0}"
 stream_3 : "**Title:** {0}\n**Duration**: {1}\n**Request By:** {2}"
 stream_4 : "**Title:** [{0}]({1})\n**Duration**: {2}\n**Request By:** {3}"
