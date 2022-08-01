@@ -234,7 +234,7 @@ queue_4 : "**Ditambahkan ke Antrian** #{0}\n\n**Judul:** {1}\n**Durasi:** {2}\n*
 queue_5 : "Hanya satu trek di dalam antrian, Silakan tambahkan lagi ke daftar antrian"
 
 # All Streaming Lines
-stream_1 : "**Status:** `Memutar`\n**Informasi:** [Di sini]({1})\n**Diminta oleh:** {0}"
+stream_1 : "**Status:** `Memutar`\n**Durasi:** {1}\n**Diminta oleh:** {0}\n**Informasi:** [Disini]({2})"
 stream_2 : "**Streaming melalui URL**\n**Diminta oleh:** {0}"
 stream_3 : "**Judul:** {0}\n**Durasi**: {1}\n**Diminta oleh:** {2}"
 stream_4 : "**Judul:** [{0}]({1})\n**Durasi**: {2}\n**Diminta oleh:** {3}"
