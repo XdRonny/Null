@@ -1,20 +1,20 @@
-name : Sundanese
+name : Alay
 
 # General Strings
-general_1 : "Bales pesen pamaké atawa nyadiakeun ngaran pamaké/user_id."
-general_2 : "Eror! Salah Parentah Pamakéan."
-general_3 : "Sababaraha **Kasalahan lumangsung** nalika ngolah pamundut anjeun.\n\nAlesan:- {0}"
-general_4 : "Anjeun admin anonim tina grup obrolan ieu!\nBalik deui ka Akun Pamaké Ti Hak Admin."
-general_5 : "Anjeun kedah janten admin sareng ngatur hak obrolan sora pikeun ngalakukeun tindakan ieu."
-general_6 : "❌ **teu maénkeun nanaon dina obrolan sora**"
+general_1 : "Bales ke orangnya atau kasi usn/id nya ayang."
+general_2 : "Error! seperti otak mu beb🤭"
+general_3 : "Ada yang error by😔.\n\nGara² ini:- {0}"
+general_4 : "Kamu tu admin anonim sayang.\nubah dulu ke akun aslinya😡"
+general_5 : "Ayang harus admin dan punya hak ngatur os😝"
+general_6 : "🙄 **lagi ga mainin apa apa**"
 
 # Classes - Telegram.py
-tg_1 : "Bot teu bisa ngundeur ayeuna.\n\n**Coba engké."
-tg_2 : "Gagal ngundeur média tina telegram."
+tg_1 : "Lagi pundung.\n\n**Coba lagi nanti ya syg."
+tg_2 : "Gagal donlot nya😭😭"
 
 # Core - Call.py
-call_1 : "Bot merlukeun **Admin** Idin pikeun ngondang akun asisten ka saluran anjeun."
-call_2 : "Asisten dipeungpeuk dina grup atawa saluran anjeun, mangga buka blokirna.\n\n**Asisten ngaran pamaké:** @{0}\n**Asisten ID:** {1}"
+call_1 : "Izinin botnya ngundang pake tautan baby, biar bisa ngundang asisten nya."
+call_2 : "asistennya di ban di gc ini😡, unban dulu cefaat...\n\n**usn asistennya:** @{0}\n**id asistennya:** {1}"
 call_3 : "Kasalahan nalika ngondang Akun Asisten kana obrolan anjeun.\n\n**Alesan**: {0}"
 call_4 : "Bot peryogi idin **Ulem Pamaké Ngaliwatan Patalina** pikeun ngundang akun asisten ka grup obrolan anjeun."
 call_5 : "Akun asisten bakal gabung dina 5 Detik.. Mangga Antosan!"
