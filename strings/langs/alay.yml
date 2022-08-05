@@ -76,15 +76,15 @@ admin_34 : "Gagal yank😭😭"
 # Start
 start_1 : "**Alo ayank** 🥰\n\nKalo ada pertanyaan atau apapun, aku slalu ada untukmu ayank."
 start_2 : "😍 **Alo ayank** !\n\n🐣 **{0} bisa** nyanyi di os untuk melelehkan hati anda.\n\n💭 Kalo mau tau cara make nya, pencet tombol » 🤧 Kepo !**"
-start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
-start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
-start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
-start_6 : "❗️ **Supergroup Diperyogikeun** ️\n\nMangga gentos **group** anjeun ka **supergroup** teras tambahkeun abdi deui.\n\n**Kumaha carana ngadamel supergroup?** \n Jieun sajarah obrolan grup anjeun **katingali**."
-start_7 : "**Obrolan Daptar Hideung**\n\nObrolan anjeun geus di-blacklist ku Bot. Mangga ménta pamaké sudo atawa nu boga bot pikeun whitelist chat heula. Pariksa [Sudolist ti dieu]({0})"
+start_3 : "Alo ayank 🥰\n\nTambahin Asisten manual kalo asisten ga join otomatis.\nusn nya:- @{1}\nAssistantID:- {2}"
+start_4 : "[{1}], Pamilik Hati {0} join ke grup😱"
+start_5 : "Selingkuhan {0} si [{1}] join ke grup😱"
+start_6 : "❗️ **harus supergroup**\njadiin supergroup dulu baru tambahin botnya lagi.\n\n**cara bikin gc jadi supergroup?**\nliatin riwayat pesan jadu terlihat."
+start_7 : "**Obrolan terlarang**\n\ngrup ini dilarang sama owner bot karna keseringan ngeghosting.😔\nhubungi pemilik bot atau sudo, cek [Sudolist disini]({0})"
 
 # Help
-help_1 : "» **Pencét tombol di handap pikeun maca katerangan sareng ningali daptar paréntah anu sayogi !**"
-help_2 : "**Pencét tombol di handap.**"
+help_1 : "**Pc aku, siapa tau cuocok**🤭"
+help_2 : "**Pc aku siapa tau cuocok.**🤭"
 
 # Settings
 setting_1 : "⚙️ **Setélan Bot Musik**\n\n🖇**Grup:** {0}\n🔖**ID Grup:** `{1}`\n\n💡**Pilih konci fungsi ti handap nu rék diédit atawa dirobah.**"
