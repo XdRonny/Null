@@ -74,8 +74,8 @@ admin_34 : "Gagal yank😭😭"
 #bot
 
 # Start
-start_1 : "**Halo** !\n\nPikeun **bantosan** atanapi **nanaon**, hubungi nu gaduh bot."
-start_2 : "👋 **Hai** !\n\n💡 {0} **ngidinan Anjeun** muter **musik** sareng **pidio** sakur dina obrolan sora grup atawa saluran.\n\n💭 Pikeun ningali sadaya **Paréntah** nu **Sadia**, pencét » 📚 **Tombol Paréntah !**"
+start_1 : "**Alo ayank** 🥰\n\nKalo ada pertanyaan atau apapun, aku slalu ada untukmu ayank."
+start_2 : "😍 **Alo ayank** !\n\n🐣 **{0} bisa** nyanyi di os untuk melelehkan hatimu.\n\n💭 kalo mau tau cara make nya, pencet tombol » 🤧 Kepo !**"
 start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
 start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
 start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
