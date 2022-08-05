@@ -75,7 +75,7 @@ admin_34 : "Gagal yank😭😭"
 
 # Start
 start_1 : "**Alo ayank** 🥰\n\nKalo ada pertanyaan atau apapun, aku slalu ada untukmu ayank."
-start_2 : "😍 **Alo ayank** !\n\n🐣 **{0} bisa** nyanyi di os untuk melelehkan hatimu.\n\n💭 kalo mau tau cara make nya, pencet tombol » 🤧 Kepo !**"
+start_2 : "😍 **Alo ayank** !\n\n🐣 **{0} bisa** nyanyi di os untuk melelehkan hati anda.\n\n💭 Kalo mau tau cara make nya, pencet tombol » 🤧 Kepo !**"
 start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
 start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
 start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
@@ -237,10 +237,10 @@ stream_4 : "**Mimitian Streaming**\n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "• Tutup​"
-CLOSEMENU_BUTTON  : "• Tutup​"
-BACK_BUTTON : "« Balik​​"
-UNBAN_BUTTON : "Unban Assisten​"
+CLOSE_BUTTON  : "Tutup"
+CLOSEMENU_BUTTON  : "Tutup"
+BACK_BUTTON : "Kembali​​"
+UNBAN_BUTTON : "Unban Asisten​"
 
 # Panel Markup
 P_M_1 : ⏩ 10 Detik
@@ -249,10 +249,10 @@ P_M_3 : ⏪ 10 Detik
 P_M_4 : ⏪ 30 Detik
 
 #Lyrics
-L_B_1 : "Tinggal Lirik​​"
+L_B_1 : "Liat Lirik​​"
 
 # Start
-S_B_1 : "📚 Paréntah​​"
+S_B_1 : "🤧 Kepo​​"
 S_B_2 : "⚙️ Setélan​​"
 S_B_3 : "Grup​"
 S_B_4 : "💭 Channel​"
