@@ -248,10 +248,10 @@ BACK_BUTTON : "Kembali​"
 UNBAN_BUTTON : "Unban Assisten​"
 
 # Panel Markup
-P_M_1 : ⏩ 10 Detik
-P_M_2 : ⏩ 30 Detik
-P_M_3 : ⏪ 10 Detik
-P_M_4 : ⏪ 30 Detik
+P_M_1 : ▷▷ 10 Detik
+P_M_2 : ▷▷ 30 Detik
+P_M_3 : ◁◁ 10 Detik
+P_M_4 : ◁◁ 30 Detik
 
 #Lyrics
 L_B_1 : "Lihat Lirik​​"
