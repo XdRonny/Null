@@ -4,7 +4,7 @@ asyncio
 dnspython
 ffmpeg-python
 gitpython
-git+https://github.com/yt-dlp/yt-dlp@master
+yt-dlp==2021.11.10.1
 hachoir
 heroku3
 lyricsgenius
@@ -23,7 +23,6 @@ spotipy
 telethon-tgcrypto
 youtube_search
 youtube-search-python
-yt-dlp
 python-arq
 telegram==0.0.1
 tgcrypto
