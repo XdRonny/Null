@@ -4,7 +4,7 @@ asyncio
 dnspython
 ffmpeg-python
 gitpython
-yt-dlp==2021.12.17
+yt-dlp
 hachoir
 heroku3
 lyricsgenius
