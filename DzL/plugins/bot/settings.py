@@ -229,9 +229,9 @@ async def without_Admin_rights(client, CallbackQuery, _):
             pass
         playmode = await get_playmode(CallbackQuery.message.chat.id)
         if playmode == "Direct":
-            Direct = True
-        else:
             Direct = None
+        else:
+            Direct = True
         is_non_admin = await is_nonadmin_chat(
             CallbackQuery.message.chat.id
         )
@@ -335,9 +335,9 @@ async def playmode_ans(client, CallbackQuery, _):
             Group = True
         playmode = await get_playmode(CallbackQuery.message.chat.id)
         if playmode == "Direct":
-            Direct = True
-        else:
             Direct = None
+        else:
+            Direct = True
         playty = await get_playtype(CallbackQuery.message.chat.id)
         if playty == "Everyone":
             Playtype = None
@@ -354,12 +354,12 @@ async def playmode_ans(client, CallbackQuery, _):
             await set_playmode(
                 CallbackQuery.message.chat.id, "Inline"
             )
-            Direct = None
+            Direct = True
         else:
             await set_playmode(
                 CallbackQuery.message.chat.id, "Direct"
             )
-            Direct = True
+            Direct = None
         is_non_admin = await is_nonadmin_chat(
             CallbackQuery.message.chat.id
         )
@@ -389,9 +389,9 @@ async def playmode_ans(client, CallbackQuery, _):
             Playtype = True
         playmode = await get_playmode(CallbackQuery.message.chat.id)
         if playmode == "Direct":
-            Direct = True
-        else:
             Direct = None
+        else:
+            Direct = True
         is_non_admin = await is_nonadmin_chat(
             CallbackQuery.message.chat.id
         )
