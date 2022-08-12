@@ -354,12 +354,12 @@ async def playmode_ans(client, CallbackQuery, _):
             await set_playmode(
                 CallbackQuery.message.chat.id, "Inline"
             )
-            Direct = True
+            Direct = None
         else:
             await set_playmode(
                 CallbackQuery.message.chat.id, "Direct"
             )
-            Direct = None
+            Direct = True
         is_non_admin = await is_nonadmin_chat(
             CallbackQuery.message.chat.id
         )
