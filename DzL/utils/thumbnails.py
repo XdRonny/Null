@@ -59,7 +59,8 @@ async def gen_thumb(videoid):
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
         image1 = changeImageSize(1280, 720, youtube)
-        image2 = image1.convert("RGBA")
+        image3 = Image.open(f"assets/dvotion.jpeg")
+        image2 = image3.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(0.6)
@@ -74,7 +75,7 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (280, 558), f"Now Playing", fill="aqua", font=name_font
+            (280, 558), f"Now Playing", (36, 150, 36), font=name_font
         )
         for line in para:
             if j == 1:
