@@ -203,11 +203,11 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
     for x in got:
         j += 1
         if j == 1:
-            msg += f'Sekarang Memutar:\n\n◉ Judul: {x["title"]}\nDurasi: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'Sekarang Memutar:\n\n◉ Judul: {x["title"]}\n◉ Durasi: {x["dur"]}\n◉ By: {x["by"]}\n\n'
         elif j == 2:
-            msg += f'Antrian:\n\n◉ Judul: {x["title"]}\nDurasi: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'Antrian:\n\n◉ Judul: {x["title"]}\n◉ Durasi: {x["dur"]}\n◉ By: {x["by"]}\n\n'
         else:
-            msg += f'◉ Judul: {x["title"]}\nDurasi: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'◉ Judul: {x["title"]}\n◉ Durasi: {x["dur"]}\n◉ By: {x["by"]}\n\n'
     if "Queued" in msg:
         if len(msg) < 700:
             await asyncio.sleep(1)
