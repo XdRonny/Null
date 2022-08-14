@@ -234,7 +234,7 @@ queue_4 : "**Added Queue At** #{0}\n\n**Title:** {1}\n**Duration:** {2}\n**Reque
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "**Status:** `Playing`\n**Duration:** {1}\n**Request By:** {0}\n**Get Info:** [Here]({2})"
+stream_1 : "**Duration:** {1}\n**Request By:** {0}\n**Get Info:** [Here]({2})"
 stream_2 : "**Streaming via URL**\n**Request By:** {0}"
 stream_3 : "**Title:** {0}\n**Duration**: {1}\n**Request By:** {2}"
 stream_4 : "**Title:** [{0}]({1})\n**Duration**: {2}\n**Request By:** {3}"
@@ -287,7 +287,7 @@ P_B_4 : "Play Playlist"
 
 #Playlist
 PL_B_1 : "Play Playlist"
-PL_B_2 : "Add To ur Playlist"
+PL_B_2 : "• Add To ur Playlist •"
 PL_B_3 : "Menu"
 PL_B_4 : "Play Mode"
 PL_B_5 : "Del Whole Playlist​"
