@@ -59,14 +59,13 @@ async def gen_thumb(videoid):
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
         image1 = changeImageSize(1280, 720, youtube)
-        image3 = Image.open(f"assets/thumb.jpeg")
-        image4 = changeImageSize(1280, 720, image3)
-        image2 = image4.convert("RGBA")
-        background = image2.filter(filter=ImageFilter.BoxBlur(0))
+        image2 = image1.convert("RGBA")
+        background = image2.filter(filter=ImageFilter.BoxBlur(10))
         enhancer = ImageEnhance.Brightness(background)
-        background = enhancer.enhance(1)
-        logo = changeImageSize(1270, 710, youtube)
-        logo.thumbnail((950, 550), Image.ANTIALIAS)
+        background = enhancer.enhance(0.6)
+        logo = changeImageSize(1200, 690, youtube)
+        logo.thumbnail((950, 580), Image.ANTIALIAS)
+        logo = ImageOps.expand(logo, border=5, fill="white")
         background.paste(logo, (170, 20))
         draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("assets/font2.ttf", 40)
@@ -76,23 +75,27 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (280, 558), f"Now Playing", (176, 255, 213), font=name_font
+            (280, 577), f"Now Playing", (77, 255, 121), font=name_font
         )
         for line in para:
             if j == 1:
                 j += 1
                 draw.text(
-                    (280, 650),
+                    (280, 660),
                     f"{line}",
-                    (197, 104, 0),
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="white",
                     font=font,
                 )
             if j == 0:
                 j += 1
                 draw.text(
-                    (280, 600),
+                    (280, 620),
                     f"{line}",
-                    (197, 104, 0),
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="white",
                     font=font,
                 )
         try:
