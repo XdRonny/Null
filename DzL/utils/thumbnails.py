@@ -62,10 +62,13 @@ async def gen_thumb(videoid):
         image3 = Image.open(f"assets/thumb.jpeg")
         image4 = changeImageSize(1280, 720, image3)
         image2 = image4.convert("RGBA")
+        background = image2.filter(filter=ImageFilter.BoxBlur(5))
+        enhancer = ImageEnhance.Brightness(background)
+        background = enhancer.enhance(0.2)
         logo = changeImageSize(1270, 710, youtube)
         logo.thumbnail((950, 550), Image.ANTIALIAS)
-        image2.paste(logo, (170, 20))
-        draw = ImageDraw.Draw(image2)
+        background.paste(logo, (170, 20))
+        draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("assets/font2.ttf", 40)
         font2 = ImageFont.truetype("assets/font2.ttf", 70)
         arial = ImageFont.truetype("assets/font2.ttf", 30)
@@ -73,7 +76,7 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (280, 558), f"Now Playing", (218, 255, 196), font=name_font
+            (280, 558), f"Now Playing", (176, 255, 213), font=name_font
         )
         for line in para:
             if j == 1:
@@ -81,7 +84,9 @@ async def gen_thumb(videoid):
                 draw.text(
                     (280, 650),
                     f"{line}",
-                    (197, 104, 0),
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="white",
                     font=font,
                 )
             if j == 0:
@@ -89,7 +94,9 @@ async def gen_thumb(videoid):
                 draw.text(
                     (280, 600),
                     f"{line}",
-                    (197, 104, 0),
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="white",
                     font=font,
                 )
         try:
