@@ -27,12 +27,12 @@ call_11 : "Harap tambahkan @{0} ke saluran Anda[ ID: {1}].\n\nBot tidak bisa men
 
 # PLUGINS - Auth.py
 auth_1 : "Anda hanya dapat memiliki 20 Pengguna di Daftar Pengguna Resmi grup Anda (AUL)"
-auth_2 : "Ditambahkan ke Daftar Pengguna Resmi grup Anda."
-auth_3 : "Sudah ada di Daftar Pengguna Resmi."
-auth_4 : "Dihapus dari Daftar Pengguna Resmi Grup ini."
+auth_2 : "Ditambahkan ke Daftar Pengguna Auth."
+auth_3 : "Sudah ada di Daftar Pengguna Auth."
+auth_4 : "Dihapus dari Daftar Pengguna auth."
 auth_5 : "Pengguna yang ditargetkan bukan Pengguna yang Sah."
-auth_6 : "Mengambil Pengguna Resmi... Harap Tunggu"
-auth_7 : "**Daftar Pengguna Resmi[AUL]:**\n\n"
+auth_6 : "Mengambil Daftar Pengguna Auth... Tunggu Sebentar."
+auth_7 : "**Daftar Pengguna Auth:**\n\n"
 auth_8 : "┗ Ditambahkan oleh:-"
 
 # PLUGINS - Admins
