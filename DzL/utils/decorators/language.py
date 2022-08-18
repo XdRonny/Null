@@ -41,7 +41,7 @@ def languageCB(mystic):
         if await is_maintenance() is False:
             if CallbackQuery.from_user.id not in SUDOERS:
                 return await CallbackQuery.answer(
-                    "Bot is under maintenance. Please wait for some time...",
+                    "Bot sedang diperbaiki. Harap tunggu beberapa saat...",
                     show_alert=True,
                 )
         try:
