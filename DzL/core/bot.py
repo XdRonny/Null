@@ -33,7 +33,7 @@ class DzBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "Bot Started"
+                "distanfriends", "<b>• Dvotion Started...</b>"
             )
         except:
             LOGGER(__name__).error(
