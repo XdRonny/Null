@@ -398,7 +398,7 @@ vidmode_2 : "Video Play Mode set as downloder. Bot will be downloading tracks no
 vidmode_3 : "Video Play Mode set as m3u8. Bot will be play tracks live now."
 
 #broadcast
-broad_1 : "**Broadcasted Message In {0}  Chats with {1} Pins from Bot.**"
+broad_1 : "**Broadcasted Message In 1{0}  Chats with {1} Pins from Bot.**"
 broad_2 : "Started Assistant Broadcast..."
 broad_3 : "**Assistant Broadcast:**\n\n"
 broad_4 : "Assistant {0} Broadcasted in {1} chats\n"
