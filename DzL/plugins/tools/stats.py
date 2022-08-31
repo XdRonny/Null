@@ -289,7 +289,7 @@ async def overall_stats(client, CallbackQuery, _):
 **Blocked Users:** {blocked} 
 **Sudo Users:** {sudoers} 
     
-**Total Queries:** 134{total_queries} 
+**Total Queries:** 9{total_queries} 
 **Total Assistants:** {assistant}
 **Auto Leaving Assistant:** {ass}
 **Cleanmode duration:** {cm} Mins
@@ -393,8 +393,8 @@ async def overall_stats(client, CallbackQuery, _):
 **Total DB Storage:** {storage} Mb
 **Total DB Collections:** {collections}
 **Total DB Keys:** {objects}
-**Total DB Queries:** `57{query}`
-**Total Bot Queries:** `134{total_queries} `
+**Total DB Queries:** `13{query}`
+**Total Bot Queries:** `9{total_queries} `
     """
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
