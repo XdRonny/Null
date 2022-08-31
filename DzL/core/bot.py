@@ -33,7 +33,7 @@ class DzBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                "distanfriends", "<b>• Dvotion is Working Now...</b>"
+                "distanfriends", "<b>• Dvotion is Alive Now...</b>"
             )
         except:
             LOGGER(__name__).error(
