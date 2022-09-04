@@ -31,11 +31,11 @@ PING_COMMAND = get_command("PING_COMMAND")
 )
 @language
 async def ping_com(client, message: Message, _):
-    response = await message.reply_text("ping...")
+    response = await message.reply_text("...")
     start = datetime.now()
     pytgping = await Dz.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit(
-        f"**Pong!**\n`{resp} ms`"
+        f"• <b>Pong!</b> » <u>{resp} ms</u>"
     )
