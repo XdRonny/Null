@@ -12,7 +12,7 @@ async def asupan(client, message):
     y = await message.reply_text("**🔍 Mencari Cogan...**")
     try:
         asupannya = []
-        async for asupan in userbot.one.search_messages("galeriCogann", filter="photo"):
+        async for asupan in userbot.one.search_messages("suchdiary", filter="photo"):
             asupannya.append(asupan)
 
         file=random.choice(asupannya)
@@ -20,11 +20,11 @@ async def asupan(client, message):
         await app.send_photo(
             message.chat.id,
             oh,
-            caption=f"**Ni cogan nya Kak {message.from_user.mention} 🤪**",
+            caption=f"**Ni cogan nya Kak {message.from_user.mention} 🥵**",
             )
         await y.delete()
     except Exception:
-        await y.edit("**Gagal mencari, lagi badmood...**")
+        await y.edit("**Gagal mencari cogan, lagi badmood...**")
     os.remove(oh)
 
 
@@ -41,11 +41,11 @@ async def asupan(client, message):
         await app.send_photo(
             message.chat.id,
             oh,
-            caption=f"**Ni cecan nya kak {message.from_user.mention} 🤪**",
+            caption=f"**Ni cecan nya kak {message.from_user.mention} 🤗**",
             )
         await y.delete()
     except Exception:
-        await y.edit("**Gagal mencari, lagi badmood...**")
+        await y.edit("**Gagal mencari cecan, lagi badmood...**")
     os.remove(oh)
 
 
@@ -66,5 +66,5 @@ async def asupan(client, message):
             )
         await y.delete()
     except Exception:
-        await y.edit("**Gagal mencari, lagi badmood..**")
+        await y.edit("**Gagal mencari gambar wibu, lagi badmood..**")
     os.remove(oh)
