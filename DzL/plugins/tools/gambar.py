@@ -7,12 +7,12 @@ import os
 from pyrogram import filters
 from DzL import userbot, app
 
-@app.on_message(filters.command("estetik"))
+@app.on_message(filters.command("cogan"))
 async def asupan(client, message):
-    y = await message.reply_text("**🔍 Mencari Gambar Estetiknya...**")
+    y = await message.reply_text("**🔍 Mencari Cogan...**")
     try:
         asupannya = []
-        async for asupan in userbot.one.search_messages("aesthetic_gambar", filter="photo"):
+        async for asupan in userbot.one.search_messages("galeriCogann", filter="photo"):
             asupannya.append(asupan)
 
         file=random.choice(asupannya)
@@ -20,20 +20,20 @@ async def asupan(client, message):
         await app.send_photo(
             message.chat.id,
             oh,
-            caption=f"**Ni Kak {message.from_user.mention}, estoktok bukan🙌✨**",
+            caption=f"**Ni cogan nya Kak {message.from_user.mention} 🤪**",
             )
         await y.delete()
     except Exception:
-        await y.edit("**Gagal mencari, lagi badmood**")
+        await y.edit("**Gagal mencari, lagi badmood...**")
     os.remove(oh)
 
 
-@app.on_message(filters.command("ayang"))
+@app.on_message(filters.command("cecan"))
 async def asupan(client, message):
-    y = await message.reply_text(f"**🔍 Mencari Ayang nya {message.from_user.mention}...**")
+    y = await message.reply_text("**🔍 Mencari Cecan...**")
     try:
         asupannya = []
-        async for asupan in userbot.one.search_messages("IndomieGantengV2", filter="photo"):
+        async for asupan in userbot.one.search_messages("kiddrugs", filter="photo"):
             asupannya.append(asupan)
 
         file=random.choice(asupannya)
@@ -41,11 +41,11 @@ async def asupan(client, message):
         await app.send_photo(
             message.chat.id,
             oh,
-            caption=f"**Ni Ayangnya {message.from_user.mention} 🥰❤️🤪**",
+            caption=f"**Ni cecan nya kak {message.from_user.mention} 🤪**",
             )
         await y.delete()
     except Exception:
-        await y.edit("**Gada yg mau sama u, minimal ganteng la...😆**")
+        await y.edit("**Gagal mencari, lagi badmood...**")
     os.remove(oh)
 
 
@@ -66,5 +66,5 @@ async def asupan(client, message):
             )
         await y.delete()
     except Exception:
-        await y.edit("**Gagal mencari, lagi badmood**")
+        await y.edit("**Gagal mencari, lagi badmood..**")
     os.remove(oh)
