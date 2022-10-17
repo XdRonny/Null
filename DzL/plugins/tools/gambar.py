@@ -30,7 +30,7 @@ async def asupan(client, message):
 
 @app.on_message(filters.command("ayang"))
 async def asupan(client, message):
-    y = await message.reply_text(f"**🔍 Mencari Ayang nya {message.from_user.mention}...**")
+    y = await message.reply_text("**🔍 Mencari Ayang nya {message.from_user.mention}...**")
     try:
         asupannya = []
         async for asupan in userbot.one.search_messages("IndomieGantengV2", filter="photo"):
