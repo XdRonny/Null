@@ -87,7 +87,7 @@ help_1 : "**Pc ka limit..**"
 help_2 : "**Pc ka limit..**"
 
 # Settings
-setting_1 : "⚙️ **Pengaturan Bot Musik**\n\n🤪**Grup:** {0}\n😎**ID Grup:** `{1}`\n\n💡**Pilih konci fungsi ti handap nu rék diédit atawa dirobah.**"
+setting_1 : "⚙️ **Pengaturan Hatiku**\n\n🤪**Grup:** {0}\n😱**ID Grup:** `{1}`\n\n🗿**Pilih Terserah Km Mo Ubah Apa Yank🥰🥵**"
 setting_3 : "⁉️ Naon ieu?\n\n1) Langsung: Muterkeun pamundut pamilarian sacara langsung. Anggo -v pikeun muterkeun pidéo dina modeu langsung.\n\n2) Inline: Mulihkeun Inline Markup Key pikeun milih antara video & audio ."
 setting_4 : "⁉️ Naon ieu?\n\n👥 Dulur: Saha waé tiasa nganggo paréntah admin naon waé (skip, pause, resume, jsb.) dina grup ieu.\n\n🙍 Admin Ngan: Ngan admin sareng pangguna anu otorisasi jalma. anu tiasa nganggo paréntah admin."
 setting_5 : "Teu Kapanggih Pamaké Otorisasi\n\nAnjeun tiasa ngijinkeun non-admin nganggo paréntah admin abdi sareng /auth sareng ngahapus nganggo /unauth"
