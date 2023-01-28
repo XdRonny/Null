@@ -147,12 +147,12 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/itsdzl/YukkiMusicBot",
+        "value": "https://github.com/itsdzl/dvotion",
         "required": true
       },
       "UPSTREAM_BRANCH": {
         "description": "Upstream Repo's Branch Name",
-        "value": "master",
+        "value": "main",
         "required": true
       }
     },
