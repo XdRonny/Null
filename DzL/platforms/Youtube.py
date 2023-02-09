@@ -91,7 +91,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=3)
+        results = VideosSearch(link, limit=0)
         for result in (await results.next())["result"]:
             title = result["title"]
             duration_min = result["duration"]
@@ -110,7 +110,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=3)
+        results = VideosSearch(link, limit=0)
         for result in (await results.next())["result"]:
             title = result["title"]
         return title
@@ -122,7 +122,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=1)
+        results = VideosSearch(link, limit=0)
         for result in (await results.next())["result"]:
             duration = result["duration"]
         return duration
@@ -134,7 +134,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=3)
+        results = VideosSearch(link, limit=0)
         for result in (await results.next())["result"]:
             thumbnail = result["thumbnails"][0]["url"].split("?")[0]
         return thumbnail
@@ -187,7 +187,7 @@ class YouTubeAPI:
             link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
-        results = VideosSearch(link, limit=3)
+        results = VideosSearch(link, limit=0)
         for result in (await results.next())["result"]:
             title = result["title"]
             duration_min = result["duration"]
