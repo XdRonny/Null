@@ -72,12 +72,12 @@
       },
       "SUPPORT_GROUP": {
         "description": "support group use https at first",
-        "value": "https://t.me/distanfriends",
+        "value": "https://t.me/suaradz",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "ch",
-        "value": "https://t.me/beauthink",
+        "value": "https://t.me/suaradz",
         "required": false
       },
       "SPOTIFY_CLIENT_ID": {
