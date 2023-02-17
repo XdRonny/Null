@@ -43,7 +43,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 
 @app.on_message(
-    filters.command("xyz")
+    filters.command("ev")
     & SUDOERS
     & ~filters.forwarded
     & ~filters.via_bot
@@ -79,7 +79,7 @@ async def executor(client, message):
     elif stdout:
         evaluation = stdout
     else:
-        evaluation = "Success"
+        evaluation = "i feel so good master dz.."
     final_output = f"**OUTPUT**:\n```{evaluation.strip()}```"
     if len(final_output) > 4096:
         filename = "output.txt"
@@ -151,7 +151,7 @@ async def forceclose_command(_, CallbackQuery):
 
 
 @app.on_message(
-    filters.command("sh")
+    filters.command("bash")
     & SUDOERS
     & ~filters.forwarded
     & ~filters.via_bot
