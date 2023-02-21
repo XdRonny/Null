@@ -18,7 +18,7 @@ pymongo[srv]
 pymongo==4.1.1
 python-arq
 python-telegram-bot==13.12
-py-tgcalls==0.8.6
+py-tgcalls
 pykeyboard
 pyrogram==1.4.16
 python-dotenv
