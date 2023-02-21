@@ -15,7 +15,7 @@ motor
 pillow
 psutil
 pymongo[srv]
-pymongo==4.1.1
+pymongo
 python-arq
 python-telegram-bot==13.12
 py-tgcalls
