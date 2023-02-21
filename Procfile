@@ -1,1 +1,1 @@
-python3 -m DzL
+worker: python3 -m DzL
