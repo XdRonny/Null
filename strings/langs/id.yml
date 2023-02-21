@@ -18,7 +18,7 @@ call_2 : "Asisten Di Ban dari grup atau saluran Anda, Unban dulu.\n\n**Username 
 call_3 : "Kesalahan Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\n**Alasan**: {0}"
 call_4 : "Bot membutuhkan izin **Undang Pengguna Melalui Tautan** untuk mengundang akun asisten ke grup obrolan Anda."
 call_5 : "Asisten akan bergabung..."
-call_6 : "Asisten Berhasil Bergabung..."
+call_6 : "__• Streaming Dimulai...__"
 call_7 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **BAN PENGGUNA** dari bot."
 call_8 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **TAMBAHKAN ADMIN BARU** dari bot."
 call_9 : "**Gagal mengubah aliran**\nHarap gunakan /skip untuk mengubah trek lagi."
