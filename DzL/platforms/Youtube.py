@@ -343,7 +343,7 @@ class YouTubeAPI:
                 "postprocessors": [
                     {
                         "key": "FFmpegExtractAudio",
-                        "preferredcodec": "opus",
+                        "preferredcodec": "oga",
                         "preferredquality": "192",
                     }
                 ],
@@ -357,7 +357,7 @@ class YouTubeAPI:
             return fpath
         elif songaudio:
             await loop.run_in_executor(None, song_audio_dl)
-            fpath = f"downloads/{title}.opus"
+            fpath = f"downloads/{title}.oga"
             return fpath
         elif video:
             if await is_on_off(config.YTDOWNLOADER):
