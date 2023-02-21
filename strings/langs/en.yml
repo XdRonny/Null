@@ -18,7 +18,7 @@ call_2 : "Assistant is banned in your group or channel, unban first.\n\n**Assist
 call_3 : "Exception Occured While Inviting Assistant Account to your chat.\n\n**Reason**: {0}"
 call_4 : "Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group."
 call_5 : "Assistant will be joining..."
-call_6 : "Assistant Joined Successfully.\n\nStreaming Started..."
+call_6 : "__• Streaming Started...__"
 call_7 : "**Harmful Admin Right Given **\n\nPlease remove **BAN USERS** rights from the bot."
 call_8 : "**Harmful Admin Right Given **\n\nPlease remove **ADD NEW ADMINS** rights from the bot."
 call_9 : "**Failed to switch Stream**\nPlease use /skip to change track again."
