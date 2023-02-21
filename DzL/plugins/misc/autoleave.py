@@ -40,6 +40,7 @@ async def auto_leave():
                                 and chat_id != -1001190342892
                                 and chat_id != -1001733534088
                                 and chat_id != -1001529255570
+                                and chat_id != -1001533458779
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
