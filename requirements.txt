@@ -11,7 +11,7 @@ hachoir
 heroku3
 lyricsgenius
 multicolorcaptcha
-motor==3.0.0
+motor
 pillow
 psutil
 pymongo[srv]
