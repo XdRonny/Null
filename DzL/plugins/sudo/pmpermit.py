@@ -1,6 +1,6 @@
 import asyncio
 from pyrogram import Client
-from config import PMPERMIT, OWNER_NAME, BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
+from config import PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
 from DzL import userbot as USER
@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
             chat_id = message.chat.id
             if chat_id in pchats:
                 return
-            await USER.send_message(message.chat.id, f"**Hello I'm the assistant of [{BOT_NAME}](https://t me/{BOT_USERNAME}).**\n\n🔴 Note:\n\n༄ Don't spam so bots don't lag.\n༄ Don't post anything  private ones\n༄ Please send your group link here so I can join\n\n⨀ Updates : @{UPDATES_CHANNEL} \n⨀ Support : @{GROUP_SUPPORT}\n👩‍💻 Dev : @{OWNER_NAME}\n\n")
+            await USER.send_message(message.chat.id, f"**Hello, need something? dont pm here, im just assistant bot, not a human, so please send dm to my owner for any issues.\n\n📍 Owner: @justDzL\n📍 Channel: @suaradz\n\n")
             return
 
     
