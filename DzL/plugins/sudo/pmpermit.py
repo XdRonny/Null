@@ -1,9 +1,9 @@
 import asyncio
 from pyrogram import Client
-from DzL.config import SUDO_USERS, PMPERMIT, OWNER_NAME, BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
+from DzL.config import SUDOERS, PMPERMIT, OWNER_NAME, BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
 from pyrogram import filters
 from pyrogram.types import Message
-from DzL.callsmusic.callsmusic import client as USER
+from DzL import userbot as USER
 
 
 PMSET =True
