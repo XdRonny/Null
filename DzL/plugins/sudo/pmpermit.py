@@ -4,7 +4,6 @@ from config import PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
 from DzL import userbot as USER
-from DzL import app
 from DzL.misc import SUDOERS as SUDO_USERS
 
 
@@ -12,7 +11,7 @@ PMSET =True
 pchats = []
 
 
-@app.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
+@USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
     if PMPERMIT == "ENABLE":
         if PMSET:
