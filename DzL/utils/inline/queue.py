@@ -11,6 +11,16 @@ from typing import Union
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
+def antrian_markup(_):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["CLOSE_BUTTON"], callback_data="close"
+            ),
+        ],
+    ]
+    return buttons
+
 
 def queue_markup(
     _,
