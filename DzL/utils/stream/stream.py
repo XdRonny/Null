@@ -17,6 +17,7 @@ import config
 from DzL import Carbon, YouTube, app
 from DzL.core.call import Dz
 from DzL.misc import db
+from DzL.utils.inline.queue import antrian_markup
 from DzL.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        is_active_chat,
@@ -171,11 +172,13 @@ async def stream(
                 "video" if video else "audio",
             )
             position = len(db.get(chat_id)) - 1
+            antrian = antrian_markup(_)
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
                 ),
+                reply_markup=InlineKeyboardMarkup(antrian),
             )
         else:
             if not forceplay:
@@ -226,11 +229,13 @@ async def stream(
                 "audio",
             )
             position = len(db.get(chat_id)) - 1
+            antrian = antrian_markup(_)
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
                 ),
+                reply_markup=InlineKeyboardMarkup(antrian),
             )
         else:
             if not forceplay:
@@ -280,11 +285,13 @@ async def stream(
                 "video" if video else "audio",
             )
             position = len(db.get(chat_id)) - 1
+            antrian = antrian_markup(_)
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
                 ),
+                reply_markup=InlineKeyboardMarkup(antrian),
             )
         else:
             if not forceplay:
@@ -338,11 +345,13 @@ async def stream(
                 "video" if video else "audio",
             )
             position = len(db.get(chat_id)) - 1
+            antrian = antrian_markup(_)
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
                 ),
+                reply_markup=InlineKeyboardMarkup(antrian),
             )
         else:
             if not forceplay:
@@ -395,10 +404,12 @@ async def stream(
                 "video" if video else "audio",
             )
             position = len(db.get(chat_id)) - 1
+            antrian = antrian_markup(_)
             await mystic.edit_text(
                 _["queue_4"].format(
                     position, title[:30], duration_min, user_name
-                )
+                ),
+                reply_markup=InlineKeyboardMarkup(antrian),
             )
         else:
             if not forceplay:
