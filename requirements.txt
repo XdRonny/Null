@@ -30,6 +30,6 @@ spotipy
 tswift
 ujson
 wget
-yt-dlp==2023.01.02
+git+https://github.com/yt-dlp/yt-dlp
 youtube-search
 youtube-search-python
