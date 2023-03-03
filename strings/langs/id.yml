@@ -83,7 +83,7 @@ start_6 : "❗️ **Dibutuhkan Supergrup** ❗️\n\nHarap ubah **grup** Anda me
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan daftar hitam oleh Bot. Silakan minta pengguna sudo atau owner bot untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "**Dz Music Menu**\n\n» __tekan tombol di bawah untuk membaca penjelasan dan melihat daftar perintah yang tersedia!__"
+help_1 : "**Heroku Music Menu**\n\n» __tekan tombol di bawah untuk membaca penjelasan dan melihat daftar perintah yang tersedia!__"
 help_2 : "**Klik tombol di bawah ini.**"
 
 # Settings
