@@ -83,7 +83,7 @@ start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** 
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "**Dz Music Menu.**\n\n» __press the button below to see all available commands!__"
+help_1 : "**Heroku Music Menu.**\n\n» __press the button below to see all available commands!__"
 help_2 : "**Click the buttons below.**"
 
 # Settings
@@ -272,7 +272,7 @@ H_B_2 : "Play"
 H_B_3 : "Bot"
 H_B_4 : "Extra"
 H_B_5 : "Close Menu"
-H_B_6 : "???"
+H_B_6 : "special"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
