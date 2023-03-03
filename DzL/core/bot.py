@@ -33,7 +33,7 @@ class DzBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "<b>• DzMusic Alive Now...</b>"
+                config.LOG_GROUP_ID, "<b>• Abbu a rahe ha..</b>"
             )
         except:
             LOGGER(__name__).error(
