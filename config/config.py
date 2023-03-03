@@ -56,12 +56,12 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/itsdzl/dvotion",
+    "https://github.com/AMANTYA1/Bug",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
