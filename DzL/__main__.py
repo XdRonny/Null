@@ -76,9 +76,16 @@ async def init():
         pass
     await Dz.decorators()
     LOGGER("DzL").info("Dz Music Bot Started Successfully")
+      
+       if len(argv) not in (1, 3, 4):
+        telethn.disconnect()
+    else:
+        telethn.run_until_disconnected()
+
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
+    telethn.start(bot_token=5443512927:AAFElVBnUHJ-DdQQAz0zctEk1A_eY3a-gR0)
     LOGGER("DzL").info("Stopping Dz Music Bot! Tataa..")
