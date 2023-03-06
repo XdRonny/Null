@@ -75,13 +75,7 @@ async def init():
     except:
         pass
     await Dz.decorators()
-    LOGGER("DzL").info("Dz Music Bot Started Successfully")
-      
-       if len(argv) not in (1, 3, 4):
-        telethn.disconnect()
-    else:
-        telethn.run_until_disconnected()
-
+    LOGGER("DzL").info("Dz Music Bot Started Successfull")
     await idle()
 
 
