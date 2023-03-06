@@ -14,6 +14,9 @@ import sys
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
+import asyncio
+import telethon
+import glob
 import config
 from config import BANNED_USERS
 from DzL import LOGGER, app, userbot
