@@ -29,6 +29,10 @@ def lanuages_keyboard(_):
             callback_data=f"languages:en",
         ),
         InlineKeyboardButton(
+            text="❣️ alay ",
+            callback_data=f"languages:alay",
+        ),
+        InlineKeyboardButton(
             text="🇮🇩 Indonesia",
             callback_data=f"languages:id",
         ),
