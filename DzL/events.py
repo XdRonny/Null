@@ -8,7 +8,7 @@ from telethon import events
 
 from pymongo import MongoClient
 from config import MONGO_DB_URI
-from DzL import telethn
+#from DzL import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
