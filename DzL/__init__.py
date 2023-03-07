@@ -37,9 +37,6 @@ sudo()
 # Bot Client
 app = DzBot()
 
-#telthom
-telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
-
 # Assistant Client
 userbot = Userbot()
 
