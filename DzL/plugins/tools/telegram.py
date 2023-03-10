@@ -2,7 +2,7 @@ import os
 from pyrogram import filters, Client
 from telegraph import upload_file
 
-from Dzl import app
+from DzL import app
 
 @app.on_message(filters.command(["telegraph", "tm", "tgm"]))
 async def telegraph(client, message):
