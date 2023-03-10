@@ -1,7 +1,7 @@
 import os
-from pyrogram import filters, Client
+from pyrogram import *
 from telegraph import upload_file
-
+from pyrogram.types import *
 from DzL import app
 
 @app.on_message(filters.command(["telegraph", "tm", "tgm"]))
@@ -38,8 +38,19 @@ async def telegraph(client, message):
         await message.reply(message, text=document)
     else:
         await message.reply(
-            f"**Yooo!\n\n👉 https://telegra.ph{response[0]}**",
-            disable_web_page_preview=True,
-        )
+        f""" Here is Telegraph
+        """,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [                   
+                    InlineKeyboardButton(
+                        "Telegraph", url=f"https://graph.org{response[0]}"
+                    ),
+                ]                
+            ]
+        ),
+     disable_web_page_preview=True
+    )
+
     finally:
         os.remove(download_location)
