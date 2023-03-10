@@ -1,63 +1,44 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-
-import asyncio
 import os
-
-import speedtest
 import wget
-from pyrogram import filters
-
-from strings import get_command
+import asyncio
+import speedtest
+from PIL import Image
+from pyrogram.types import Message
+from pyrogram import filters, Client
 from DzL import app
-from DzL.misc import SUDOERS
+from config import OWNER_ID
 
-# Commands
-SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
-
-
-def testspeed(m):
-    try:
-        test = speedtest.Speedtest()
-        test.get_best_server()
-        m = m.edit("Running Download SpeedTest")
-        test.download()
-        m = m.edit("Running Upload SpeedTest")
-        test.upload()
-        test.results.share()
-        result = test.results.dict()
-        m = m.edit("Sharing SpeedTest Results")
-        path = wget.download(result["share"])
-    except Exception as e:
-        return m.edit(e)
-    return result, path
-
-
-@app.on_message(filters.command(SPEEDTEST_COMMAND) & SUDOERS)
-async def speedtest_function(client, message):
+@app.on_message(filters.command("speedtest") & ~filters.edited)
+async def run_speedtest(_, message):
+    userid = message.from_user.id
     m = await message.reply_text("Running Speed test")
-    loop = asyncio.get_event_loop()
-    result, path = await loop.run_in_executor(None, testspeed, m)
-    output = f"""**Speedtest Results**
+    test = speedtest.Speedtest()
+    test.get_best_server()
+    await m.edit("🔥 running download speedtest")
+    test.download()
+    await m.edit("🔥 running upload speedtest")
+    test.upload()
+    test.results.share()
+    result = test.results.dict()
+    await m.edit("💠 Sharing Speedtest")
+    output = f"""💡 SpeedTest Results
     
-<u>**Client:**</u>
-**__ISP:__** {result['client']['isp']}
-**__Country:__** {result['client']['country']}
+<u>Client:</u>
+
+ISP: {result['client']['isp']}
+Country: {result['client']['country']}
   
-<u>**Server:**</u>
-**__Name:__** {result['server']['name']}
-**__Country:__** {result['server']['country']}, {result['server']['cc']}
-**__Sponsor:__** {result['server']['sponsor']}
-**__Latency:__** {result['server']['latency']}  
-**__Ping:__** {result['ping']}"""
+<u>Server:</u>
+
+Name: {result['server']['name']}
+Country: {result['server']['country']}, {result['server']['cc']}
+Sponsor: {result['server']['sponsor']}
+Latency: {result['server']['latency']}  
+
+⚡ Ping: {result['ping']}"""
     msg = await app.send_photo(
-        chat_id=message.chat.id, photo=path, caption=output
+        chat_id=message.chat.id, 
+        photo=result["share"], 
+        caption=output
     )
-    os.remove(path)
     await m.delete()
