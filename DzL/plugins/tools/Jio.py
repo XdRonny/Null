@@ -10,7 +10,7 @@ from ast import ExceptHandler
 from pyrogram import filters
 
 
-from DzL.pyrogramee.dark import get_arg
+from DzL.dark import get_arg
 
 
 @app.on_message(filters.command("saavn"))
