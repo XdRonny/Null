@@ -11,7 +11,7 @@ from pyrogram import filters
 
 
 from DzL.dark import get_arg
-
+from DzL import app
 
 @app.on_message(filters.command("saavn"))
 async def song(client, message):
