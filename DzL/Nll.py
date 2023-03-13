@@ -7,6 +7,7 @@ from DzL.core.userbot import Userbot
 from DzL.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
+from config.config import config
 
 API_ID = "2857558"
 API_HASH = "1038be815e038592fa2b483c13dd6c4b"
@@ -14,8 +15,8 @@ API_HASH = "1038be815e038592fa2b483c13dd6c4b"
 
 StellaCli = Client(
     session_name='StellaSession',
-    api_id=config.telegram.api_id,
-    api_hash=config.telegram.api_hash,
+    api_id='2857558',
+    api_hash='1038be815e038592fa2b483c13dd6c4b',
     bot_token=config.telegram.bot.token
 )
 
