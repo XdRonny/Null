@@ -19,11 +19,11 @@
 from typing import List, Union
 
 from pyrogram.types import Message
-from DzL import (GROUP_ANONYMOUS_BOT, SUDO_USERS, StellaCli,
-                    TELEGRAM_SERVICES_IDs)
+from DzL import SUDO_USERS, StellaCli, TELEGRAM_SERVICES_IDs
 from DzL.utils.database.connection_mongo import GetConnectedChat
 
 BOT_ID = "5817544006"
+GROUP_ANONYMOUS_BOT = "1087968824"
 
 ADMIN_STRINGS = [
         "creator",
