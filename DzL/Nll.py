@@ -17,7 +17,7 @@ StellaCli = Client(
     session_name='StellaSession',
     api_id='2857558',
     api_hash='1038be815e038592fa2b483c13dd6c4b',
-    bot_token=config.telegram.bot.token
+    bot_token='5443512927:AAFElVBnUHJ-DdQQAz0zctEk1A_eY3a-gR0'
 )
 
 TELEGRAM_SERVICES_IDs = (
