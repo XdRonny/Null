@@ -21,7 +21,7 @@ from DzL.utils.chat_status import can_restrict_member
 from DzL.utils.get_user import get_user_id
 from DzL.plugin.warnings.warn_checker import warn_checker
 
-BOT_ID = "5817544006"
+BOT_ID = 5817544006
 
 async def warn(message, reason, silent=False, warn_user=None):
 
