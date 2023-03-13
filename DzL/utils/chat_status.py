@@ -19,7 +19,7 @@
 from typing import List, Union
 
 from pyrogram.types import Message
-from DzL import StellaCli, TELEGRAM_SERVICES_IDs
+from DzL.Nll import StellaCli, TELEGRAM_SERVICES_IDs
 from DzL.misc import SUDOERS
 from DzL.utils.database.connection_mongo import GetConnectedChat
 
