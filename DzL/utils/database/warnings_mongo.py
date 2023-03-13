@@ -1,6 +1,6 @@
-from DzL import StellaDB
+from DzL.core.mongo import mongodb
 
-warnings = StellaDB.warnings
+warnings = mongodb.warnings
 
 def warn_db(chat_id, admin_id, user_id, reason):
     warn_data = warnings.find_one(
