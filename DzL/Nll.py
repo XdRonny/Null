@@ -7,7 +7,7 @@ from DzL.core.userbot import Userbot
 from DzL.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
-from config.config import config
+
 
 API_ID = "2857558"
 API_HASH = "1038be815e038592fa2b483c13dd6c4b"
