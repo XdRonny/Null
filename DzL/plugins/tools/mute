@@ -16,10 +16,10 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from DzL.database.warnings_mongo import count_user_warn, warn_db, warn_limit
-from DzL.helper.chat_status import can_restrict_member
-from DzL.helper.get_user import get_user_id
-from DzL.plugins.warnings.warn_checker import warn_checker
+from DzL.utils.database.warnings_mongo import count_user_warn, warn_db, warn_limit
+from DzL.utils.chat_status import can_restrict_member
+from DzL.utils.get_user import get_user_id
+from DzL.plugin.warnings.warn_checker import warn_checker
 
 BOT_ID = "5817544006"
 
