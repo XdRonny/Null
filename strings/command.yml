@@ -21,7 +21,7 @@ STATS_COMMAND : ["system"]
 LANGUAGE_COMMAND : ["lang", "language", "lg"]
 
 # Play Commands
-PLAY_COMMAND : ["p", "ty", "dz", "play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAY_COMMAND : ["p", "play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
 PLAYMODE_COMMAND : ["playmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
@@ -60,7 +60,7 @@ DELSUDO_COMMAND : ["delsudo"]
 SUDOUSERS_COMMAND : ["sudolist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast", "gc"]
+BROADCAST_COMMAND : ["null"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
