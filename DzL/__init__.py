@@ -63,5 +63,3 @@ TELEGRAM_SERVICES_IDs = (
         1087968824 # GroupAnonymousBot
     ]
 )
-
-GROUP_ANONYMOUS_BOT = 1087968824
