@@ -19,7 +19,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from DzL.utils.database.warnings_mongo import count_user_warn, warn_db, warn_limit
 from DzL.utils.chat_status import can_restrict_member
 from DzL.get_user import get_user_id
-from DzL.plugin.warnings.warn_checker import warn_checker
+from DzL.plugins.warnings.warn_checker import warn_checker
 
 BOT_ID = 5817544006
 
