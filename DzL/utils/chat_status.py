@@ -19,7 +19,8 @@
 from typing import List, Union
 
 from pyrogram.types import Message
-from DzL import SUDO_USERS, StellaCli, TELEGRAM_SERVICES_IDs
+from DzL import StellaCli, TELEGRAM_SERVICES_IDs
+from DzL.misc import SUDOERS
 from DzL.utils.database.connection_mongo import GetConnectedChat
 
 BOT_ID = "5817544006"
@@ -157,7 +158,7 @@ async def can_restrict_member(message: Message, user_id: int, chat_id: int = Non
 
     if (
         GetData.status in ADMIN_STRINGS
-        or user_id in SUDO_USERS
+        or user_id in SUDOERS
     ):
         return False
     else:
