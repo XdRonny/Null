@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-from DzL import StellaCli
+from DzL.Nll import StellaCli
 
 async def get_user_id(message):
     if(
