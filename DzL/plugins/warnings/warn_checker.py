@@ -18,7 +18,7 @@
 import time
 
 from pyrogram.types import ChatPermissions
-from DzL import StellaCli
+from DzL.Nll import StellaCli
 from DzL.utils.database.warnings_mongo import (count_user_warn,
                                             get_all_warn_reason, get_warn_mode,
                                             reset_user_warns, warn_limit)
