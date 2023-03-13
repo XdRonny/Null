@@ -49,3 +49,19 @@ Apple = AppleAPI()
 Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
+
+StellaCli = Client(
+    session_name='StellaSession',
+    api_id=config.telegram.api_id,
+    api_hash=config.telegram.api_hash,
+    bot_token=config.telegram.bot.token
+)
+
+TELEGRAM_SERVICES_IDs = (
+    [
+        777000, # Telegram Service Notifications
+        1087968824 # GroupAnonymousBot
+    ]
+)
+
+GROUP_ANONYMOUS_BOT = 1087968824
