@@ -4,7 +4,7 @@ from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import random
 from DzL.alicia import AliciaBot
-from DzL import app as bot
+from pyrogram import Client as bot
 
 @AliciaBot(pattern="^/logo ?(.*)")
 async def makelogo(event):
