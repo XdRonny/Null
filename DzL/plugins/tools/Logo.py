@@ -3,10 +3,10 @@ import requests
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import random
-from DzL.alicia import AliciaBot
+from DzL import app
 from pyrogram import Client as bot
 
-@AliciaBot(pattern="^/logo ?(.*)")
+app.on_message(filters.command('logo'))
 async def makelogo(event):
         quew = event.pattern_match.group(1).strip()
             
