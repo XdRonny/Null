@@ -2,6 +2,7 @@ from telethon.sessions import MemorySession
 from DzL.core.bot import DzBot
 from DzL.core.dir import dirr
 from DzL.core.git import git
+from telethon import TelegramClient
 from DzL.core.userbot import Userbot
 from DzL.misc import dbb, heroku, sudo
 
