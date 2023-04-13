@@ -3,6 +3,7 @@ import requests
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import random
+from pyrogram import filters
 from DzL import app
 from pyrogram import Client as bot
 
