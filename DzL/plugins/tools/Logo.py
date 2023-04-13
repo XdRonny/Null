@@ -3,8 +3,8 @@ import requests
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import random
-from AliciaRobot.alicia import AliciaBot
-from Dzl import  as bot
+from DzL.alicia import AliciaBot
+from DzL import app as bot
 
 @AliciaBot(pattern="^/logo ?(.*)")
 async def makelogo(event):
