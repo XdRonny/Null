@@ -1,5 +1,5 @@
 from telethon import events
-from AliciaRobot import telethn
+from DzL import telethn
 
 """Triggers start command in pm and in groupchats"""
 def AliciaBot(**args):
