@@ -12,7 +12,7 @@ async def asupan(client, message):
     y = await message.reply_text("**🔍Looking for couple gif...**")
     try:
         asupannya = []
-        async for asupan in userbot.one.search_messages("couplxd", filter="video"):
+        async for asupan in userbot.one.search_messages("couplxd", filter="gif"):
             asupannya.append(asupan)
 
         file=random.choice(asupannya)
