@@ -39,6 +39,12 @@ def lanuages_keyboard(_):
     )
     keyboard.row(
         InlineKeyboardButton(
+            text="🇮🇳 बीटा हिंदी ",
+            callback_data=f"languages:hi",
+        ),
+    )
+    keyboard.row(
+        InlineKeyboardButton(
             text=_["BACK_BUTTON"],
             callback_data=f"settingsback_helper",
         ),
