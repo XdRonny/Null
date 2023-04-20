@@ -1,12 +1,12 @@
 name : बीटा हिन्दी
 
 # General Strings
-general_1 : "Reply to a user's message or give username/user_id."
-general_2 : "Error! Wrong Usage of Command."
-general_3 : "Some **exception occured** while processing your query.\n\nException Type:- {0}"
-general_4 : "You're an anonymous admin in this chat group!\nRevert back to User Account From Admin Rights."
-general_5 : "You need to be admin with manage voice chat rights to perform this action."
-general_6 : "❌ **not playing anything in voice chat.**"
+general_1 : "बीएसडीके यूजर का रिप्लाई मैसेज मुझे और  उपयोगकर्ता नाम या उपयोगकर्ता आईडी."
+general_2 : "भाड़ में जाओ! कमांड का गलत इस्तेमाल करेगा चमार ."
+general_3 : "आपकी क्वेरी को संसाधित करते समय कुछ **अपवाद हुआ** कितना समलैंगिक.\n\nअपवाद प्रकार रैंडी:- {0}"
+general_4 : "आप इस चैट समूह में एक रंडी से बूरे हैं!\nएडमिन राइट्स से यूजर अकाउंट पर वापस लौटें वर्ना रंडी ही बने रहे."
+general_5 : "एडमिन वीडियो चैट के बिना स्किप एंड की कमांड यूज कर रहा है बड़ा बकचोद लड़का/लड़की हा."
+general_6 : "❌ **तेरा अब्बू ने प्ले किया था क्या जो एंड सीएमडी दे रहा है.**"
 
 # Classes - Telegram.py
 tg_1 : "Bot is **overloaded** with downloads right now.\n\n**Try After:** {0} (__expected time__)"
