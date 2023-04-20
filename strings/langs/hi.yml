@@ -1,11 +1,11 @@
 name : बीटा हिन्दी
 
 # General Strings
-general_1 : "बीएसडीके यूजर का रिप्लाई मैसेज मुझे और  उपयोगकर्ता नाम या उपयोगकर्ता आईडी."
-general_2 : "भाड़ में जाओ! कमांड का गलत इस्तेमाल करेगा चमार ."
-general_3 : "आपकी क्वेरी को संसाधित करते समय कुछ **अपवाद हुआ** कितना समलैंगिक.\n\nअपवाद प्रकार रैंडी:- {0}"
-general_4 : "आप इस चैट समूह में एक रंडी से बूरे हैं!\nएडमिन राइट्स से यूजर अकाउंट पर वापस लौटें वर्ना रंडी ही बने रहे."
-general_5 : "एडमिन वीडियो चैट के बिना स्किप एंड की कमांड यूज कर रहा है बड़ा बकचोद लड़का/लड़की हा."
+general_1 : "**बीएसडीके यूजर का रिप्लाई मैसेज मुझे और  उपयोगकर्ता नाम या उपयोगकर्ता आईडी.**"
+general_2 : "**भाड़ में जाओ! कमांड का गलत इस्तेमाल करेगा चमार**."
+general_3 : "**आपकी क्वेरी को संसाधित करते समय कुछ **अपवाद हुआ** कितना समलैंगिक.\n\nअपवाद प्रकार रैंडी:- {0}**"
+general_4 : "**आप इस चैट समूह में एक रंडी से बूरे हैं!\nएडमिन राइट्स से यूजर अकाउंट पर वापस लौटें वर्ना रंडी ही बने रहे.**"
+general_5 : "**एडमिन वीडियो चैट के बिना स्किप एंड की कमांड यूज कर रहा है बड़ा बकचोद लड़का/लड़की हा.**"
 general_6 : "❌ **तेरा अब्बू ने प्ले किया था क्या जो एंड सीएमडी दे रहा है.**"
 
 # Classes - Telegram.py
@@ -17,7 +17,7 @@ call_1 : "Bot requires **Admin** Permission to invite assistant account to your 
 call_2 : "Assistant is banned in your group or channel, unban first.\n\n**Assistant Username:** @{0}\n**Assistant ID:** {1}"
 call_3 : "Exception Occured While Inviting Assistant Account to your chat.\n\n**Reason**: {0}"
 call_4 : "Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group."
-call_5 : "सहायक अपने समय प्रति शामिल हों करेगा लोड..."
+call_5 : "**सहायक अपने समय प्रति शामिल हों करेगा लोड...**"
 call_6 : "__• Streaming Started...__"
 call_7 : "**Harmful Admin Right Given **\n\nPlease remove **BAN USERS** rights from the bot."
 call_8 : "**Harmful Admin Right Given **\n\nPlease remove **ADD NEW ADMINS** rights from the bot."
@@ -44,7 +44,7 @@ admin_5 : "**voicechat is already muted.**"
 admin_6 : "✅ __voicechat muted.__"
 admin_7 : "**music is already unmuted.**"
 admin_8 : "✅ __voicechat unmuted.__"
-admin_9 : "✅ __असिस्टेंट वीडियोचैट लोड एक सॉन्ग प्ले नहीं कर सकते.__"
+admin_9 : "✅ __**असिस्टेंट वीडियोचैट छोड़ कर तुम रहे तुम रंडी रोना करो**.__"
 admin_10 : "• No more track in queue.\n✅ __assistant leave the voice chat.__"
 admin_11 : "Error while changing stream to **{0}**\n\nPlease use /skip again."
 admin_12 : "Unable to skip to a specific track because of enabled loop play. Please disable loop play via `/loop disable` to use this feature."
