@@ -81,5 +81,5 @@ async def init():
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    telethn.start(bot_token="5443512927:AAFElVBnUHJ-DdQQAz0zctEk1A_eY3a-gR0")
+    telethn.start(bot_token="6155648734:AAHuf6E6_uu-8_4-5tJLFtCN2KnJNEm0LPY")
     LOGGER("DzL").info("Stopping Dz Music Bot! Tataa..")
