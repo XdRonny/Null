@@ -147,7 +147,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/XdRonnyhttps://github.com/itsdzl/dvotion",
+        "value": "https://github.com/itsdzl/dvotion",
         "required": true
       },
       "UPSTREAM_BRANCH": {
