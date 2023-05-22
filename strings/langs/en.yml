@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "**Hello!**\n\nFor any **assistance** or **help**, ask to owner bot."
-start_2 : "◉ **Hello!**\n\n💭 **{0} allows you** to **play music** & **video** in your voice chats **group** or **channel.**\n\n┗ To see all **Available Command** click **Buttons** » **Commands.**"
+start_2 : "**◉ Hey!\n\n {0} ➻ ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs..\n\n ✧••━ Sᴜᴘᴘᴏʀᴛᴇᴅ Pʟᴀᴛғᴏʀᴍs : ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ ᴀɴᴅ sᴏᴜɴᴅᴄʟᴏᴜᴅ. ━••✧\n\n ๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ━ ━••✧••✧.**"
 start_3 : "Welcome To {0}\n\nplease make me admin with full permission.\n\nAdd Manually Assistant if assistant cannot auto join.\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "[{1}], Owner **{0}'s** just joined the group chat."
 start_5 : "Admins of **{0}'s**, [{1}] has just joined the group chat."
